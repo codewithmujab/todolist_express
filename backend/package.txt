@@ -1,0 +1,13 @@
+npm install express --save
+npm install sequelize --save
+npm install sqlite3 --save
+
+permission denied
+sudo chown -R `whoami` ~/.npm
+sudo chown -R `whoami` /usr/local/lib/node_modules
+
+run
+node server
+
+endpoint
+http://localhost:3001/api/tasks
